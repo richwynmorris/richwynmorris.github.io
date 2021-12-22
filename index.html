@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://opg.me/ns#">
+<head>
+  <title>Richard Morris</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="public/stylesheets/style.css">
+  <meta name="title" property="og:title" content="Richard Morris" />
+  <meta name="description" property="og:description" content="I'm a full stack software engineer in the London Area & co-creator of Horus" />
+  <meta name="type" property="og:type" content="website" />
+  <meta name="url" property="og:url" content="http://www.richmorris.co.uk" />
+  <meta name="image" property="og:image" content="public/assets/images/android-icon-192x192.png" />
+  <meta name="author" content="Richard Morris" />
+  <!-- ICONS -->
+  <link rel="shortcut icon" type="image/x-icon" href="public/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="public/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="public/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="public/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="public/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="public/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="public/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="public/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="public/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicons/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="public/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="logo-links">
+    <a href="https://github.com/richwynmorris" target="_blank">
+      <img class="icon" src="public/assets/icons/git_hub.svg" alt="github logo" id="github-logo">
+    </a>
+    <!-- ADD RESUME PDF-->
+    <a href="public/assets/" target="_blank">
+      <img class="icon" src="public/assets/icons/resume.svg" alt="link to Richard Morris resume" id="resume-logo">
+    </a>
+    <!-- ADD RESUME LINKED IN-->
+    <a href="" target="_blank">
+      <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Richard Morris LinkedIn" id="linkedin-logo">
+    </a>
+  </div>
+  <main>
+    <section id="intro" class="flexbox horz-center">
+      <img id="avatar" src="public/assets/images/Rich-modified.png" alt="photo of Richard Morris">
+      <h3 id="name">Richard Wyn Morris</h3>
+      <p>I'm a full stack software engineer in the London area with experience in the Ruby, JavaScript, and Go ecosystems.</p>
+      <p>I recently created <a class="horus" href="https://tryhorus.com">Horus</a>, an open-source observability solution for microservices built with Node.js, TimeScaleDB, Next.js and OpenTelemetry.</p>
+    </section>
+    <section id="horus" class="flexbox horz-center">
+      <div id="horus-info-container" class="flexbox">
+        <div>
+          <img id="horus-graphic" src="public/assets/images/Storage and Querying.png" alt="A gif showing the horus deploy command" />
+        </div>
+        <div class="flexbox horz-center">
+          <p><a class="horus" href="https://tryhorus.com">Horus</a> is an open-source observability solution for microservices.
+          Users can generate, store, and visualize correlated telemetry data, allowing them to see the real-time health of their application. </p>
+          <p>Built using OpenTelemetry, Horus encompasses industry-leading observability standards, technologies, and best practices to ensure that the generated telemetry data is always in the user’s hands and under their control.</p>
+        </div>
+      </div>
+      <div id="horus-info-container" class="flexbox">
+        <div class="flexbox horz-center">
+          <p>With Horus, the user has the option to track both application metrics and traces to gain the observability coverage they need. Horus correlates the user’s application metrics with the traces that occurred in that given time period, providing full transparency over the interactions taking place across their system’s infrastructure</p>
+          <a id="horus-repo-btn" class="btn" target="_blank" href="https://tryhorus.com/case-study">READ THE CASE STUDY</a>
+        </div>
+        <div>
+          <img id="deploy-command-gif" src="public/assets/images/ui-overview.gif" alt="A gif showing the horus deploy command" />
+        </div>
+      </div> 
+    </section>
+    <section id="projects" class="flexbox horz-center">
+        <h2>Small Projects</h2>
+        <ul class="flexbox vert-center">
+          <li>
+            <img src="public/assets/images/requestbin.png" style="image-rendering: -webkit-optimize-contrast;" alt="Screenshot of request bin application" />
+            <h4>RequestBin</h4>
+            <p> RequestBin-like tool for receiving and debugging webhooks - Node.js/Express, PostgreSQL, Socket.IO, Handlebars.js, Bootstrap </p>
+          </li>
+          <li>
+            <img src="public/assets/images/trello.png" style="image-rendering: -webkit-optimize-contrast;" alt="Screenshot of postit application" />
+            <h4>Ello-Trello</h4>
+            <p>An Agile workflow board inspired by Trello - Express, React/Redux, MongoDB</p>
+          </li>
+          <li>
+            <img src="public/assets/images/todos.png" alt="Screenshot of todos application" />
+            <h4>Tasker</h4>
+            <p>A responsive task managament application - JavaScript(ES6), JQuery, and Handlebars.js frontend.</p>
+          </li>
+        </ul>
+      </section>
+    <section id="contact" class="flexbox horz-center">
+      <h3>Let's connect! 👋</h3>
+      <h4><a href="mailto:richwynmorris@protonmail.com">richwynmorris@protonmail.com</a></h4>
+      <ul class="flexbox vert-center">
+        <li>
+          <!-- ADD RESUME HERE-->
+          <a href="public/assets/" target="_blank">
+            <img class="icon" src="public/assets/icons/resume.svg" alt="link to Richard Morris resume">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/richwynmorris" target="_blank">
+            <img class="icon" src="public/assets/icons/git_hub.svg" alt="link to Richard Morris GitHub">
+          </a>
+        </li>
+        <li>
+          <!-- ADD LINKED IN HERE -->
+          <a href="" target="_blank">
+            <img class="icon" src="public/assets/icons/linked_in.svg" alt="link to Richard Morris LinkedIn">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
