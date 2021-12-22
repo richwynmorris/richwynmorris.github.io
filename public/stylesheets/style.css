@@ -61,7 +61,14 @@ h2 {
   text-align: center;
 }
 
-h3, #resume-btn {
+h3 {
+  color: #253C81;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#name {
   color: #253C81;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
@@ -133,7 +140,7 @@ p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7rem;
-  margin-bottom: 15px;
+  padding-top: 10px;
 }
 
 a.horus {
@@ -182,7 +189,7 @@ footer {
   font-weight: 700;
   padding: 10px;
   text-align: center;
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
 .icon {
@@ -397,7 +404,7 @@ div > iframe {
 
 @media(max-width: 920px) {
   section {
-    padding: 100px 10%;
+    padding: 20px 10%;
   }
 
   li {
@@ -412,6 +419,7 @@ div > iframe {
   #projects p {
     font-size: 1rem;
     line-height: 1.7rem;
+    text-align: center;
   }
 
   #projects > ul {
@@ -491,11 +499,12 @@ div > iframe {
   }
 
   h2 {
+    padding-top: 10px;
     font-size: 1.9rem;
   }
 
   section {
-    padding: 65px 15%;
+    padding: 10px 15%;
   }
 
   #horus-info-container {
@@ -526,6 +535,10 @@ div > iframe {
 
   #projects > ul {
     width: 100%;
+  }
+
+  #horus > p {
+    text-align: center;
   }
 }
 
