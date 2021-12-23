@@ -189,7 +189,6 @@ footer {
   font-weight: 700;
   padding: 10px;
   text-align: center;
-  margin-bottom: 15%;
 }
 
 .icon {
@@ -236,6 +235,7 @@ footer {
 ------------------------------------ */
 
 #avatar {
+  padding-top: 30px;
   display: block;
   max-width: 250px;
   min-width: 200px;
@@ -307,6 +307,7 @@ footer {
   height: auto;
   max-width: 100%;
   width: auto;
+  margin-bottom: 10%;
 }
 
 div > iframe {
@@ -468,6 +469,17 @@ div > iframe {
   #contact li {
     margin: 8%;
   }
+
+  .btn {
+    background-color: #253C81;
+    border: solid 1px #253C81;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15%;
 }
 
 
@@ -518,6 +530,18 @@ div > iframe {
   #projects > ul {
     width: 100%;
   }
+
+  .btn {
+    background-color: #253C81;
+    border: solid 1px #253C81;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15%;
+  }
 }
 
 @media(max-width: 465px) {
@@ -539,6 +563,18 @@ div > iframe {
 
   #horus > p {
     text-align: center;
+  }
+
+  .btn {
+    background-color: #253C81;
+    border: solid 1px #253C81;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15%;
   }
 }
 
