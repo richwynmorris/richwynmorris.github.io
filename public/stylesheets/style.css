@@ -77,7 +77,7 @@ h3 {
 }
 
 #resume-btn:hover {
-  color: #06dfd7;
+  color: #9C50FF;
 }
 
 header {
@@ -203,8 +203,8 @@ footer {
 
 .btn:hover,
 .icon:hover {
-  background-color: #06dfd7;
-  border-color: #06dfd7;
+  background-color: #9C50FF;
+  border-color: #9C50FF;
 }
 
 .horz-center {
