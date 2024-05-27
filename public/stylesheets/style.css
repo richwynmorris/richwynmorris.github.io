@@ -115,6 +115,10 @@ header {
   width: 100%;
 }
 
+#projects > p {
+  text-align: center;
+}
+
 h4 {
   align-items: center;
   color: #450838;
